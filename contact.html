@@ -9,12 +9,11 @@
 </head>
 
 <body>
-    <header>
-        <h1>CABINET MÉDICAL</h1>
+    <header class="logo box">
+        <img src="images/logo2-ConvertImage.jpg" alt="photo logo">
     </header>
 
-    <nav class="menu">
-
+    <nav class="menu box">
         <ul>
             <li><a href="index.html">Accueil</a></li>
             <li><a href="medecins.html">Médecins</a></li>
@@ -25,17 +24,61 @@
 
         </ul>
     </nav>
-
     <main>
-        <article>
+        <article class=" article box">
+            <p>
+                Lorem ipsum dolor sit amet,
+                dignissim sit amet, adipiscing
+                massa, varius a, semper congue, euismod non, mi. Proin porttitor
 
-
+            </p>
         </article>
+        <article class="article2 box">
+            <p>
+                Lorem ipsum dolor sit amet,
+                dignissim sit amet, adipiscing
+                massa, varius a, semper congue, euismod non, mi. Proin porttitor
 
-        <aside></aside>
-
-
+            </p>
+        </article>
     </main>
-</body>
+    <aside class="sidebar box">
+        <h1>NOUS CONTACTER</h1>
+        <p><label for="textform">NOM</label><br /><input type="text" /></p>
+        <p><label for="textform">Prénom :</label><br /><input type="text" /></p>
+        <p>
+            <label for="textform">Adresse Mail</label><br />
+            <input type="text" />
+        </p>
+
+        <p><label for="textform">Téléphone</label> <br /><input type="text" /></p>
+        <p>
+            <label for="textform">Votre médecin :</label>
+            <select name="medecin">
+                <option value="premier">1er</option>
+                <option value="deuxième">2eme</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="message">Message</label>
+
+            <textarea name="symptomes" class="areaform" rows="5" cols="40"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Envoyer" />
+        </p>
+        </main>
+
+
+    </aside>
+
+    <footer class="footer box">
+        <p>
+
+            Lorem ipsum dolor sit amet, dignissim sit amet, adipiscing massa, varius a, semper congue, euismod non, mi.
+            Proin porttitor
+        </p>
+    </footer>
 
 </html>
